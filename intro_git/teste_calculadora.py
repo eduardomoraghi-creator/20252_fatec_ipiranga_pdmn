@@ -1,7 +1,9 @@
 import calculadora
-a = 2
-b = 3
-soma = calculadora.somar(a, b)
-print(f'{a} + {b} = {soma}')
-subtracao = calculadora.subtrair(a, b)
-print(f'{a} - {b} = {subtracao}')
+op1 = 2
+op2 = 3
+soma = calculadora.somar(op1, op2)
+print(f'{op1} + {op2} = {soma}')
+subtracao = calculadora.subtrair(op1, op2)
+print(f'{op1} - {op2} = {subtracao}')
+multiplicacao = calculadora.multiplicar(op1, op2)
+print(f'{op1} - {op2} = {multiplicacao}')
